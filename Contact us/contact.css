@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-head {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: 70px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.messageWelcome {
+  margin-left: 90px;
+}
+
+.top-head ul {
+  list-style: none;
+  color: white;
+}
+
+.list {
+  font-size: 20px;
+  color: white;
+  display: flex;
+}
+.list li {
+  margin-right: 15px;
+}
+.list li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.top-head a:hover {
+  background: #669900;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.navBar {
+  position: fixed;
+  width: 100%;
+}
+/* --------------------------- END NAVBAR ---------------------------------- */
+
+/*---------------------------- START BODY --------------------------------- */

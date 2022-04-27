@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+
+/*----------------single-product---------------*/
+.single-product {
+  margin-top: 70px;
+}
+.new-arrival {
+  background: green;
+  width: 50px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.col-md-7 h2 {
+  color: #555;
+}
+.single-product .fa {
+  color: black;
+}
+.single-product .price {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.single-product input {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  height: 33px;
+  text-align: center;
+  width: 30px;
+}
+
+.single-product .btn-primary {
+  background: black !important;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 1px;
+  margin-top: -6px;
+  border: none;
+  box-shadow: none !important;
+}
+/*--------------product-description---------------*/
+.product-description h6 {
+  margin-top: 50px;
+  color: black;
+}
+
+.product-description hr {
+  margin-bottom: 50px;
+}
+
+/*--------------Foter---------------*/
+
+.myfooter {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 400px;
+  font-size: 17px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 500px;
+  top: 500px;
+}
+.footer-widget {
+  margin-left: 50px;
+}
+.Payement-SocielMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
+@media screen and (max-width:1000px){
+  .myfooter{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width:910px){
+  .myfooter{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:799px){
+  .myfooter{
+    font-size: 15px;
+  }
+  .displayN{
+display: none;
+  }
+}
+@media screen and (max-width:721px){
+  .myfooter{
+    font-size: 15px;
+    margin-top: 1050px;
+  }
+  .displayN{
+display: none;
+  }
+}
+@media screen and (max-width:650px){
+  .myfooter{
+    font-size: 10px;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+}
+.displayP{
+display: none;}

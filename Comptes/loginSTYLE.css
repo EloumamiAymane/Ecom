@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+body {
+  background-color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  color: black;
+}
+#formLogin {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+#ContainerLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+#buttonLogin {
+  margin-top: 15px;
+  border-style: none;
+  width: 350px;
+  transition: ease-out 500ms;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #1DBF57;
+
+}
+#RegisterFree {
+  margin-top: 15px;
+  border-style: none;
+  width: 350px;
+  transition: ease-out 500ms;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #1DBF57;
+}
+#RegisterFree:hover {
+  box-shadow: inset 350px 0 0  #1DBF57;
+}
+#buttonLogin:hover {
+  box-shadow: inset 350px 0 0 #1DBF57;
+}
+
+.inputBAR {
+  transition: ease-out 500ms;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border: 3px solid #1DBF57;
+  width: 400px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+#ButtonNavi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  margin-top: 50px;
+  position: relative;
+}
+#naviGuest {
+  border: none;
+  width: 350px;
+  transition: ease-out 500ms;
+  font-size: 1.5rem;
+  box-shadow: inset 0 0 0 #1DBF57;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #1DBF57;
+  position: absolute;
+  top: 100px;
+}
+#naviGuest a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#naviGuest:hover {
+  box-shadow: inset 350px 0 0 #1DBF57;
+}
+button {
+  padding: 5px;
+}

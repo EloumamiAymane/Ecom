@@ -1,0 +1,29 @@
+.titleFounder{
+margin-top: 60px; 
+width:100%;
+text-align: center;
+}
+.pictureFounder{
+  border-radius:50%;
+}
+.containerFounder{
+width: 15%;
+font-size: 14px;
+padding: 100px;
+text-align: center;
+display: flex;
+margin-left: -90px;
+} 
+.text{
+  width: 250px;
+}
+.containerFounder img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.foraboutus{
+  width: 100%;
+  background-color: red;
+}

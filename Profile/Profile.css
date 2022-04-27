@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ----------------------------- NAV --------------------------------- */
+
+/* ------------------------- END NAV ------------------------------- */
+
+/*add product*/
+
+.frm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-top: 30px;
+}
+
+.frm input {
+  border: 1px solid black;
+  width: 650px;
+  height: 50px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.frm label {
+  font-size: x-large;
+  width: 590px;
+  text-align: center;
+}
+
+.btnn {
+  margin-top: 15px;
+  background-color: #1dbf57;
+  color: white;
+  border: 1px solid white;
+  width: 650px;
+}
